@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-19 04:58+0200\n"
+"POT-Creation-Date: 2022-01-21 00:48+0200\n"
 "PO-Revision-Date: 2022-01-19 03:28+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -102,6 +102,10 @@ msgid ""
 "{}"
 msgstr ""
 
+#: app/constants.py:84
+msgid "🥲 Ссылка {} уже добавлена"
+msgstr ""
+
 #: app/bot/forms/hour.py:14
 msgid ""
 "Напиши час во сколько тебе будет удобно получать ссылочку (по Московскому"
@@ -124,11 +128,11 @@ msgid ""
 "времени 👇🏻"
 msgstr ""
 
-#: app/bot/forms/language.py:17
+#: app/bot/forms/language.py:18
 msgid "Выбери язык"
 msgstr ""
 
-#: app/bot/handlers/link.py:106
+#: app/bot/handlers/link.py:112
 msgid "Ссылка удалена"
 msgstr ""
 

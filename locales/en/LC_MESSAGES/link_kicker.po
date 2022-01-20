@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LinkKicker VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-19 04:58+0200\n"
+"POT-Creation-Date: 2022-01-21 00:48+0200\n"
 "PO-Revision-Date: 2022-01-19 00:18+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -116,6 +116,11 @@ msgstr ""
 "Your unread links (page {}):\n"
 "{}"
 
+#: app/constants.py:84
+#, fuzzy
+msgid "🥲 Ссылка {} уже добавлена"
+msgstr "🥲 Link {} was already added"
+
 #: app/bot/forms/hour.py:14
 msgid ""
 "Напиши час во сколько тебе будет удобно получать ссылочку (по Московскому"
@@ -142,11 +147,11 @@ msgid ""
 "времени 👇🏻"
 msgstr "Send any link to the dialogue and you'll get it at {}:00 Moscow time 👇🏻"
 
-#: app/bot/forms/language.py:17
+#: app/bot/forms/language.py:18
 msgid "Выбери язык"
 msgstr "Choose language"
 
-#: app/bot/handlers/link.py:106
+#: app/bot/handlers/link.py:112
 msgid "Ссылка удалена"
 msgstr "Link was deleted"
 
@@ -170,17 +175,20 @@ msgid ""
 "Используй команду /random :)\n"
 msgstr ""
 "👋 Welcome!\n"
-"Do you, like me, have a problem with forgetting to read articles you've saved?\n"
+"Do you, like me, have a problem with forgetting to read articles you've "
+"saved?\n"
 "The bot will help! (I hope so because it helped me)\n"
 "It will send you a link to read every day.\n"
 "\n"
 "How it works:\n"
 "* You send the bot any link\n"
 "* You wait until it's time to send it out\n"
-"* Read your article and mark it read by the bot (there will be a button under the link)\n"
+"* Read your article and mark it read by the bot (there will be a button "
+"under the link)\n"
 "* Enjoying your productivity!\n"
 "\n"
-"Want to read some added links, but don't want to wait for the newsletter?\n"
+"Want to read some added links, but don't want to wait for the newsletter?"
+"\n"
 "Use the /random command :)\n"
 
 #~ msgid "Успешно установлен язык {}"
